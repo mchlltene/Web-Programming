@@ -62,3 +62,5 @@ const student ={
     curicculum : '2018-2022'
 }
  console.log(student);
+
+ 
