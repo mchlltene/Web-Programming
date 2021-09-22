@@ -16,3 +16,9 @@ const student = {
 console.log(student);
 console.log(student.address.city);
 console.log(student.hobbies[1]);
+
+//Destructuring -> pull out (mengeluarkan properti objek yang akan difunakan)
+const {hobbies, firstName, lastName, address :{city,postCode}} = student;
+console.log(hobbies);
+console.log(firstName);
+console.log(postCode);
